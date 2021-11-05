@@ -12,6 +12,7 @@ class App extends Component {
       country: "",
     };
   }
+
   async componentDidMount() {
     const fetchedData = await fetchData();
 
